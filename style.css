@@ -23,6 +23,11 @@ body {
 
   }
 
+  .return {
+    margin-bottom: -15px;
+    color: green;
+  }
+
   .search {
     display: flex;
     justify-content: center;
@@ -33,6 +38,12 @@ body {
     width: 80%;
     padding-top: 5px;
     padding-bottom: 3px;
+
+  }
+
+  .img {
+    max-width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
 
   }
 
@@ -89,4 +100,14 @@ body {
   
   .empty {
     color: rgb(0, 0, 0);
+  }
+
+  a:link{
+    text-decoration: none; 
+    color: green;
+  }
+
+  a:hover {
+    cursor: pointer;
+    color: rgb(8, 49, 8);
   }
